@@ -1,0 +1,48 @@
+[preinstall]
+172.28.10.21 ansible_host=mk8scp1
+172.28.10.22 ansible_host=mk8scp2
+172.28.10.23 ansible_host=mk8scp3
+172.28.10.41 ansible_host=mk8swk1
+172.28.10.42 ansible_host=mk8swk2
+172.28.10.43 ansible_host=mk8swk3
+172.28.10.44 ansible_host=mk8swk4
+172.28.10.45 ansible_host=mk8swk5
+172.28.10.46 ansible_host=mk8swk6
+172.28.10.47 ansible_host=mk8swk7
+
+[master]
+172.28.10.21 ansible_host=mk8scp1
+172.28.10.22 ansible_host=mk8scp2
+172.28.10.23 ansible_host=mk8scp3
+
+[loadbalancer]
+172.28.10.32 ansible_host=mk8slb1
+172.28.10.33 ansible_host=mk8slb2
+
+[worker]
+172.28.10.41 ansible_host=mk8swk1
+172.28.10.42 ansible_host=mk8swk2
+172.28.10.43 ansible_host=mk8swk3
+172.28.10.44 ansible_host=mk8swk4
+172.28.10.45 ansible_host=mk8swk5
+172.28.10.46 ansible_host=mk8swk6
+172.28.10.47 ansible_host=mk8swk7
+
+[storage]
+
+
+[cluster_init]
+172.28.10.21 ansible_host=mk8scp1
+
+[worker_init]
+172.28.10.41 ansible_host=mk8swk1
+172.28.10.42 ansible_host=mk8swk2
+172.28.10.43 ansible_host=mk8swk3
+172.28.10.44 ansible_host=mk8swk4
+172.28.10.45 ansible_host=mk8swk5
+172.28.10.46 ansible_host=mk8swk6
+172.28.10.47 ansible_host=mk8swk7
+
+[master_init]
+172.28.10.22 ansible_host=mk8scp2
+#172.28.10.23 ansible_host=mk8scp3
